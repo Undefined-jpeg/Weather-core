@@ -9,16 +9,16 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon-192.svg",
+      "src": "/branding/weathercore-icon.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "/icon-512.svg",
+      "src": "/branding/weathercore-icon.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "shortcuts": [
@@ -27,32 +27,32 @@
       "short_name": "Home",
       "description": "Current conditions",
       "url": "/",
-      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+      "icons": [{ "src": "/branding/weathercore-icon.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Map",
       "short_name": "Map",
       "url": "/map",
-      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+      "icons": [{ "src": "/branding/weathercore-icon.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Alerts",
       "short_name": "Alerts",
       "url": "/alerts",
-      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+      "icons": [{ "src": "/branding/weathercore-icon.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Weather widget",
       "short_name": "Widget",
       "description": "Compact forecast for docks and small windows",
       "url": "/widget",
-      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+      "icons": [{ "src": "/branding/weathercore-icon.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Compare",
       "short_name": "Compare",
       "url": "/compare",
-      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+      "icons": [{ "src": "/branding/weathercore-icon.png", "sizes": "192x192", "type": "image/png" }]
     }
   ]
 }

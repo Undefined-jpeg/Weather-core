@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { signIn, auth } from "@/auth";
-import { CloudLightning } from "lucide-react";
 
 export const metadata = {
   title: "Sign in · WeatherCore",
@@ -19,13 +19,15 @@ export default async function SignInPage({
   return (
     <div className="flex min-h-dvh items-center justify-center px-4">
       <div className="w-full max-w-md rounded-3xl border border-[rgba(180,192,217,0.18)] bg-[rgba(30,36,53,0.6)] p-8 backdrop-blur-xl">
-        <Link href="/" className="mb-6 flex items-center gap-2 text-lg">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-[color:var(--color-primary)]/40 ring-1 ring-[color:var(--color-light)]/20">
-            <CloudLightning className="h-5 w-5 text-[color:var(--color-light)]" />
-          </span>
-          <span className="font-semibold tracking-tight">
-            Weather<span className="text-[color:var(--color-light)]">Core</span>
-          </span>
+        <Link href="/" className="mb-8 flex justify-center">
+          <Image
+            src="/branding/weathercore-banner.png"
+            alt="WeatherCore — Atmospheric Intelligence"
+            width={680}
+            height={280}
+            className="h-auto w-full max-w-[320px] object-contain"
+            priority
+          />
         </Link>
         <h1 className="text-2xl font-semibold tracking-tight">Sign in</h1>
         <p className="mt-1 text-sm text-[color:var(--color-text-muted)]">

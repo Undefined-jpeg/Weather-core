@@ -1,4 +1,4 @@
-const CACHE_NAME = "weathercore-v1";
+const CACHE_NAME = "weathercore-v2";
 const STATIC_CACHE = [
   "/",
   "/map",
@@ -7,8 +7,8 @@ const STATIC_CACHE = [
   "/compare",
   "/widget",
   "/manifest.webmanifest",
-  "/icon-192.svg",
-  "/icon-512.svg",
+  "/branding/weathercore-icon.png",
+  "/branding/weathercore-nav.png",
 ];
 
 self.addEventListener("install", (event) => {

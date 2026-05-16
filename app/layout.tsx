@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   description:
     "Real-time weather, AI-powered analysis, severe weather mapping, and global disaster tracking.",
   applicationName: "WeatherCore",
+  icons: {
+    icon: [{ url: "/branding/weathercore-icon.png", sizes: "200x200", type: "image/png" }],
+    apple: [{ url: "/branding/weathercore-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,

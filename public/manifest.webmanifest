@@ -1,0 +1,58 @@
+{
+  "name": "WeatherCore",
+  "short_name": "WeatherCore",
+  "description": "Real-time weather, AI analysis, and global severe weather tracking.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1E2435",
+  "theme_color": "#1E2435",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Home",
+      "description": "Current conditions",
+      "url": "/",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Map",
+      "short_name": "Map",
+      "url": "/map",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Alerts",
+      "short_name": "Alerts",
+      "url": "/alerts",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Weather widget",
+      "short_name": "Widget",
+      "description": "Compact forecast for docks and small windows",
+      "url": "/widget",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Compare",
+      "short_name": "Compare",
+      "url": "/compare",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    }
+  ]
+}
